@@ -17,8 +17,8 @@ PHD_framework/
 │   ├── active_learning.py     # Цикл активного обучения
 │   ├── simulation_io.py       # Парсинг и трансформация симуляционных данных
 │   ├── metrics.py             # Метрики качества и ошибки
-│   ├── visualization.py       # Построение графиков и диаграмм
-│   └── config.py              # Параметры и настройки
+│   └──visualization.py       # Построение графиков и диаграмм
+│    
 │
 ├── notebooks/           # Jupyter-ноутбуки с экспериментами
 │   ├── 01_surrogate_vs_hifi.ipynb
