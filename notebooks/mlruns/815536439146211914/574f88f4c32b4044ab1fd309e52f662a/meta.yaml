@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/pechk/Documents/GitHub/PHD_framework/notebooks/mlruns/815536439146211914/574f88f4c32b4044ab1fd309e52f662a/artifacts
+end_time: 1749928217145
+entry_point_name: ''
+experiment_id: '815536439146211914'
+lifecycle_stage: active
+run_id: 574f88f4c32b4044ab1fd309e52f662a
+run_name: run_21_rosenbrock
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749928162393
+status: 3
+tags: []
+user_id: pechk
