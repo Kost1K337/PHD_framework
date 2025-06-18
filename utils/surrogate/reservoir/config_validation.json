@@ -1,0 +1,14 @@
+{
+    "test_data_file": "C:/Users/IAM_centre/Documents/GitHub/MetAktiv/src/inno_reservoir/data/dataset5/test1.txt",    
+    "delimiter": "\t",
+
+    "result_folder": "C:/Users/IAM_centre/Documents/GitHub/MetAktiv/src/inno_reservoir/data/dataset5/results",
+    "model_filename": "C:/Users/IAM_centre/Documents/GitHub/MetAktiv/benchmark/model.tc",
+
+    "bhp_control": true,
+
+    "hidden_per_well": 1,
+    "addition_cells_per_well": 1.0,
+
+    "device": "cuda"
+}

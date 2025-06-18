@@ -1,0 +1,27 @@
+{
+    "mean": {
+        "GOR": 473.318241,
+        "LIQ": 853.831130,
+        "THP": 16.503172,
+        "WCT": 0.471493,
+        "angle": 88.648377,
+        "friction": 1.002957,
+        "gravity": 0.999548,
+        "measured_depth": 1313.289435,
+        "tube_diametr": 0.213233
+    },
+    "std": {
+        "GOR": 487.759746,
+        "LIQ": 330.871377,
+        "THP": 7.242361,
+        "WCT": 0.307898,
+        "angle": 2.675300,
+        "friction": 0.204041,
+        "gravity": 0.081651,
+        "measured_depth": 720.666344,
+        "tube_diametr": 0.046704
+    },
+
+    "log_pressure_drop_mean": 0.440366,
+    "log_pressure_drop_std": 1.800949
+}

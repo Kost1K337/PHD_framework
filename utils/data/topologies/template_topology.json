@@ -1,0 +1,122 @@
+{
+    "gasDensityKgToM3": 0.91786,
+    "oilDensityKgToM3": 800.0,
+    "waterDensityKgToM3": 1020.0,
+    "tubeMetamodelName": "model.pt",
+    "tubeMetamodelFeatureDescr": "tube_feature_desc.json",
+    "wellMetamodelsPath": "*.pickle",
+    "globalNodesCount": 6,
+    "globalPipesCount": 5,
+    "piCurveExcelPath": "real_ab.xlsx",
+    "nodalConfig": {
+        "solver": "daqp",
+        "symmetrize": true,
+        "method": "general"
+    },
+    "nodes": [
+        {
+            "id": 0,
+            "name": "well1_thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 1,
+            "name": "well2_thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 2,
+            "name": "JOINT",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 3,
+            "name": "TemplateWell1_SOURCE",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 200,
+            "oilRateTonneToD": 235.9986,
+            "waterRateTonneToD": 2231.8379,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 4,
+            "name": "TemplateWell2_SOURCE",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 190,
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "id": 5,
+            "inletPressureAtma": 10.0,
+            "name": "DNS",
+            "type": "SINK"
+        }
+    ],
+    "pipes": [
+        {
+            "id": 0,
+            "inletNodeId": 0,
+            "innerDiameterMm": 159,
+            "name": "well1_thp - JOINT",
+            "type": "TUBE",
+            "outletNodeId": 2,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 124.41",
+                "2017 121.46"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 1,
+            "inletNodeId": 1,
+            "innerDiameterMm": 273,
+            "name": "well2_thp - JOINT",
+            "type": "TUBE",
+            "outletNodeId": 2,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 117.87",
+                "1108 118.39"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 2,
+            "inletNodeId": 2,
+            "innerDiameterMm": 159,
+            "name": "JOINT - DNS",
+            "type": "TUBE",
+            "outletNodeId": 5,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 109.53",
+                "1521 117.87"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 3,
+            "type": "WELL",
+            "inletNodeId": 3,
+            "outletNodeId": 0,
+            "name": "TemplateWell1",
+            "VFPModelNumber": "1019"
+        },
+        {
+            "id": 4,
+            "type": "WELL",
+            "inletNodeId": 4,
+            "outletNodeId": 1,
+            "name": "TemplateWell2",
+            "VFPModelNumber": "1022"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "EXP_NAME": "mvp_new_case",
+    "START_DATE": "2020-02-01",
+    "SCHEDULE_PATH_EXCEL": "./ЗЛМ давления на входе ДНС.xlsx",
+    "WPARAM_PATH": "./default_well_parameters.csv",
+    "TRUE_DATA_PATH": "./data_gdm_22_09_cleant.csv",
+    "MODEL": 1,
+    "SCENARIO": 49,
+    "NETWORK_DUMP_FORMAT": "mvp_network_{EXP_NAME}_{EXP_DATE}.xlsx",
+    "TARGET_WELLS": null,
+    "DATES_TO_FILTER": [],
+    "SMPL_LIMIT_PERCENT": 0.5,
+    "SAMPLING_MODE": "equal",
+    "SAMPLING_RANGE": "full",
+    "SAMPLING_WINDOW": [
+        -50,
+        50
+    ],
+    "RATE_BOUNDS": "ipr",
+    "PERCENT_BOUNDS": [
+        -90,
+        90
+    ],
+    "INITIAL_GUESS": "INITIAL_GUESS",
+    "BHP_GRID_DENSITY": 0.25,
+    "IPR_MODE": "default",
+    "NET_TRIALS": 1,
+    "NET_ERRORS": 0,
+    "NET_RETRIALS": 0,
+    "NET_MAX_ERROR": 100,
+    "NET_MIN_ERROR": 1,
+    "N_STEPS": 6,
+    "PRED_MODE": "rate_model",
+    "LAST_BHP": 100,
+    "LAST_WCT": 0,
+    "OPT_VALUE": "qliq",
+    "max_iter": 50
+}

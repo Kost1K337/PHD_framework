@@ -1,0 +1,1882 @@
+{
+    "gasDensityKgToM3": 0.91786,
+    "oilDensityKgToM3": 800.0,
+    "waterDensityKgToM3": 1020.0,
+    "tubeMetamodelName": "model.pt",
+    "tubeMetamodelFeatureDescr": "tube_feature_desc.json",
+    "wellMetamodelsPath": "*.pickle",
+    "globalNodesCount": 115,
+    "globalPipesCount": 114,
+    "piCurveExcelPath": "real_ab.xlsx",
+    "nodalConfig": {
+        "solver": "daqp",
+        "symmetrize": true,
+        "method": "general"
+    },
+    "nodes": [
+        {
+            "id": 0,
+            "name": "1019 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 1,
+            "name": "1022 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 2,
+            "name": "1025 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 3,
+            "name": "1026 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 4,
+            "name": "1031 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 5,
+            "name": "1033 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 6,
+            "name": "1034 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 7,
+            "name": "1041 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 8,
+            "name": "1046 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 9,
+            "name": "1047 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 10,
+            "name": "1053 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 11,
+            "name": "1056 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 12,
+            "name": "1058 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 13,
+            "name": "1059 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 14,
+            "name": "1064 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 15,
+            "name": "1065 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 16,
+            "name": "1067 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 17,
+            "name": "1068 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 18,
+            "name": "1069 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 19,
+            "name": "1071 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 20,
+            "name": "1072 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 21,
+            "name": "1074 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 22,
+            "name": "1077 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 23,
+            "name": "1079 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 24,
+            "name": "1080 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 25,
+            "name": "1081 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 26,
+            "name": "1083 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 27,
+            "name": "1084 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 28,
+            "name": "1085 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 29,
+            "name": "1088 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 30,
+            "name": "1089 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 31,
+            "name": "1090 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 32,
+            "name": "1091 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 33,
+            "name": "1092 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 34,
+            "name": "1093 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 35,
+            "name": "1094 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 36,
+            "name": "1028 thp",
+            "type": "JUNCTION",
+            "on": true
+        },
+        {
+            "id": 37,
+            "inletPressureAtma": 10.0,
+            "name": "DNS",
+            "type": "SINK"
+        },
+        {
+            "id": 38,
+            "name": "T vr K9",
+            "type": "JUNCTION"
+        },
+        {
+            "id": 39,
+            "name": "T vr K7",
+            "type": "JUNCTION"
+        },
+        {
+            "id": 40,
+            "name": "T vr K8",
+            "type": "JUNCTION"
+        },
+        {
+            "id": 41,
+            "name": "T vr K6",
+            "type": "JUNCTION"
+        },
+        {
+            "id": 42,
+            "name": "GREBENKA UPN",
+            "type": "JUNCTION"
+        },
+        {
+            "id": 43,
+            "name": "DNS UPSV",
+            "type": "JUNCTION"
+        },
+        {
+            "id": 44,
+            "name": "Kust 9",
+            "type": "JUNCTION"
+        },
+        {
+            "id": 45,
+            "name": "Kust 6",
+            "type": "JUNCTION"
+        },
+        {
+            "id": 46,
+            "name": "Kust 7",
+            "type": "JUNCTION"
+        },
+        {
+            "id": 47,
+            "name": "Kust 8",
+            "type": "JUNCTION"
+        },
+        {
+            "id": 48,
+            "name": "Kust 184",
+            "type": "JUNCTION"
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 49,
+            "name": "Nizni_Lug",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 200,
+            "oilRateTonneToD": 235.9986,
+            "waterRateTonneToD": 2231.8379,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 50,
+            "name": "1019",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 190,
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 2.42952,
+            "id": 51,
+            "name": "1022",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 175,
+            "oilRateTonneToD": 8.098,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 2.59933,
+            "id": 52,
+            "name": "1025",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 107,
+            "oilRateTonneToD": 8.664,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 2.61643,
+            "id": 53,
+            "name": "1026",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 207,
+            "oilRateTonneToD": 150.0,
+            "waterRateTonneToD": 8.721,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 3.12616,
+            "id": 54,
+            "name": "1031",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 173,
+            "oilRateTonneToD": 10.42,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 1.63838,
+            "id": 55,
+            "name": "1033",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 206,
+            "oilRateTonneToD": 5.461,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 1.79619,
+            "id": 56,
+            "name": "1034",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 175,
+            "oilRateTonneToD": 5.987,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 2.99745,
+            "id": 57,
+            "name": "1041",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 155,
+            "oilRateTonneToD": 9.991,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 1.12866,
+            "id": 58,
+            "name": "1046",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 127,
+            "oilRateTonneToD": 3.762,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 2.54863,
+            "id": 59,
+            "name": "1047",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 124,
+            "oilRateTonneToD": 8.495,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 3.65269,
+            "id": 60,
+            "name": "1053",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 136,
+            "oilRateTonneToD": 12.175,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 12.621,
+            "id": 61,
+            "name": "1056",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 129,
+            "oilRateTonneToD": 42.068,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 62,
+            "name": "1058",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 121,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 63,
+            "name": "1059",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 177,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 64,
+            "name": "1064",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 123,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 65,
+            "name": "1065",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 138,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 66,
+            "name": "1067",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 119,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 67,
+            "name": "1068",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 142,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 68,
+            "name": "1069",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 145,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 69,
+            "name": "1071",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 93,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 70,
+            "name": "1072",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 152,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 71,
+            "name": "1074",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 94,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 72,
+            "name": "1077",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 159,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 73,
+            "name": "1079",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 99,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 74,
+            "name": "1080",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 108,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 75,
+            "name": "1081",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 145,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 76,
+            "name": "1083",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 159,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 77,
+            "name": "1084",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 112,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 78,
+            "name": "1085",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 135,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 79,
+            "name": "1088",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 89,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 80,
+            "name": "1089",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 124,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 81,
+            "name": "1090",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 154,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 82,
+            "name": "1091",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 95,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 83,
+            "name": "1092",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 205,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 84,
+            "name": "1093",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 144,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 85,
+            "name": "1094",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 149,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 86,
+            "name": "1028",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 185,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 87,
+            "name": "1004",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 127,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 88,
+            "name": "1010",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 164,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 89,
+            "name": "1027",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 122,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 90,
+            "name": "1036",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 189,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 91,
+            "name": "1037",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 144,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 92,
+            "name": "1038",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 85,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 93,
+            "name": "1042",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 149,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 94,
+            "name": "1044",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 207,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 95,
+            "name": "1050",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 101,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 96,
+            "name": "1061",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 124,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 97,
+            "name": "1004 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 98,
+            "name": "1010 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 99,
+            "name": "1027 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 100,
+            "name": "1036 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 101,
+            "name": "1037 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 102,
+            "name": "1038 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 103,
+            "name": "1042 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 104,
+            "name": "1044 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 105,
+            "name": "1050 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.284115,
+            "id": 106,
+            "name": "1061 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 0.947,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 1.63838,
+            "id": 107,
+            "name": "1043 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 5.461,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 1.63838,
+            "id": 108,
+            "name": "1052 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 5.461,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 1.63838,
+            "id": 109,
+            "name": "1062 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 5.461,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 110,
+            "name": "1043",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 160,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 111,
+            "name": "1052",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 193,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 112,
+            "name": "1062",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 189,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 1.63838,
+            "id": 113,
+            "name": "1057 thp",
+            "type": "JUNCTION",
+            "oilRateTonneToD": 5.461,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        },
+        {
+            "gasRateTonneToD": 0.0,
+            "id": 114,
+            "name": "1057",
+            "type": "SOURCE",
+            "reservoirPressureAtma": 122,
+            "oilRateTonneToD": 0.0,
+            "waterRateTonneToD": 0.0,
+            "on": true
+        }
+    ],
+    "pipes": [
+        {
+            "id": 0,
+            "inletNodeId": 46,
+            "innerDiameterMm": 159,
+            "name": "Kust 7-T vr K7",
+            "type": "TUBE",
+            "outletNodeId": 39,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 124.41",
+                "2017 121.46"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 1,
+            "inletNodeId": 42,
+            "innerDiameterMm": 273,
+            "name": "GREBENKA UPN-DNS UPSV",
+            "type": "TUBE",
+            "outletNodeId": 43,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 117.87",
+                "1108 118.39"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 2,
+            "inletNodeId": 40,
+            "innerDiameterMm": 159,
+            "name": "T vr K8-GREBENKA UPN",
+            "type": "TUBE",
+            "outletNodeId": 42,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 109.53",
+                "1521 117.87"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 3,
+            "inletNodeId": 41,
+            "innerDiameterMm": 219,
+            "name": "T vr K6-T vr K8",
+            "type": "TUBE",
+            "outletNodeId": 40,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 121.09",
+                "1610 117.87"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 4,
+            "inletNodeId": 45,
+            "innerDiameterMm": 159,
+            "name": "Kust 6-T vr K7",
+            "type": "TUBE",
+            "outletNodeId": 39,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 121.96",
+                "258 121.46"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 5,
+            "inletNodeId": 38,
+            "innerDiameterMm": 219,
+            "name": "T vr K9-T vr K6",
+            "type": "TUBE",
+            "outletNodeId": 41,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 116.1",
+                "2961 121.09"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 6,
+            "inletNodeId": 44,
+            "innerDiameterMm": 159,
+            "name": "Kust 9-T vr K9",
+            "type": "TUBE",
+            "outletNodeId": 38,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 112.33",
+                "2923 116.1"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 7,
+            "inletNodeId": 49,
+            "innerDiameterMm": 159,
+            "name": "Kust 5-T vr K9",
+            "type": "TUBE",
+            "outletNodeId": 38,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 117.28",
+                "4846 116.1"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 8,
+            "inletNodeId": 39,
+            "innerDiameterMm": 159,
+            "name": "T vr K7-T vr K6",
+            "type": "TUBE",
+            "outletNodeId": 41,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 121.46",
+                "950 121.09"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 9,
+            "inletNodeId": 47,
+            "innerDiameterMm": 159,
+            "name": "Kust 8-T vr K8",
+            "type": "TUBE",
+            "outletNodeId": 40,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 109.53",
+                "1562 114.55"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 10,
+            "inletNodeId": 48,
+            "innerDiameterMm": 159,
+            "name": "Kust 184-GREBENKA UPN",
+            "type": "TUBE",
+            "outletNodeId": 42,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 118.21",
+                "435 117.87"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 11,
+            "inletNodeId": 43,
+            "type": "CONNECTOR",
+            "name": "DNS UPSV-DNS",
+            "outletNodeId": 37
+        },
+        {
+            "id": 12,
+            "inletNodeId": 0,
+            "innerDiameterMm": 114,
+            "name": "580 - Kust 9",
+            "type": "TUBE",
+            "outletNodeId": 44,
+            "profileHorDistanceMSpaceHeightM": [
+                "0 117.02",
+                "1206 112.33"
+            ],
+            "roughnessMm": 1.524e-05,
+            "VFPTubeModel": {}
+        },
+        {
+            "id": 13,
+            "inletNodeId": 1,
+            "type": "CONNECTOR",
+            "name": 34,
+            "outletNodeId": 44
+        },
+        {
+            "id": 14,
+            "inletNodeId": 2,
+            "type": "CONNECTOR",
+            "name": 37,
+            "outletNodeId": 44
+        },
+        {
+            "id": 15,
+            "inletNodeId": 3,
+            "type": "CONNECTOR",
+            "name": 38,
+            "outletNodeId": 44
+        },
+        {
+            "id": 16,
+            "inletNodeId": 4,
+            "type": "CONNECTOR",
+            "name": 43,
+            "outletNodeId": 44
+        },
+        {
+            "id": 17,
+            "inletNodeId": 5,
+            "type": "CONNECTOR",
+            "name": 45,
+            "outletNodeId": 44
+        },
+        {
+            "id": 18,
+            "inletNodeId": 6,
+            "type": "CONNECTOR",
+            "name": 46,
+            "outletNodeId": 44
+        },
+        {
+            "id": 19,
+            "inletNodeId": 7,
+            "type": "CONNECTOR",
+            "name": 53,
+            "outletNodeId": 45
+        },
+        {
+            "id": 20,
+            "inletNodeId": 8,
+            "type": "CONNECTOR",
+            "name": 58,
+            "outletNodeId": 45
+        },
+        {
+            "id": 21,
+            "inletNodeId": 9,
+            "type": "CONNECTOR",
+            "name": 59,
+            "outletNodeId": 45
+        },
+        {
+            "id": 22,
+            "inletNodeId": 10,
+            "type": "CONNECTOR",
+            "name": 65,
+            "outletNodeId": 45
+        },
+        {
+            "id": 23,
+            "inletNodeId": 11,
+            "type": "CONNECTOR",
+            "name": 68,
+            "outletNodeId": 45
+        },
+        {
+            "id": 24,
+            "inletNodeId": 12,
+            "type": "CONNECTOR",
+            "name": 70,
+            "outletNodeId": 45
+        },
+        {
+            "id": 25,
+            "inletNodeId": 13,
+            "type": "CONNECTOR",
+            "name": 71,
+            "outletNodeId": 45
+        },
+        {
+            "id": 26,
+            "inletNodeId": 14,
+            "type": "CONNECTOR",
+            "name": 76,
+            "outletNodeId": 45
+        },
+        {
+            "id": 27,
+            "inletNodeId": 15,
+            "type": "CONNECTOR",
+            "name": 77,
+            "outletNodeId": 45
+        },
+        {
+            "id": 28,
+            "inletNodeId": 16,
+            "type": "CONNECTOR",
+            "name": 79,
+            "outletNodeId": 45
+        },
+        {
+            "id": 29,
+            "inletNodeId": 17,
+            "type": "CONNECTOR",
+            "name": 80,
+            "outletNodeId": 45
+        },
+        {
+            "id": 30,
+            "inletNodeId": 18,
+            "type": "CONNECTOR",
+            "name": 81,
+            "outletNodeId": 45
+        },
+        {
+            "id": 31,
+            "inletNodeId": 19,
+            "type": "CONNECTOR",
+            "name": 83,
+            "outletNodeId": 45
+        },
+        {
+            "id": 32,
+            "inletNodeId": 20,
+            "type": "CONNECTOR",
+            "name": 84,
+            "outletNodeId": 45
+        },
+        {
+            "id": 33,
+            "inletNodeId": 21,
+            "type": "CONNECTOR",
+            "name": 86,
+            "outletNodeId": 46
+        },
+        {
+            "id": 34,
+            "inletNodeId": 22,
+            "type": "CONNECTOR",
+            "name": 89,
+            "outletNodeId": 46
+        },
+        {
+            "id": 35,
+            "inletNodeId": 23,
+            "type": "CONNECTOR",
+            "name": 91,
+            "outletNodeId": 46
+        },
+        {
+            "id": 36,
+            "inletNodeId": 24,
+            "type": "CONNECTOR",
+            "name": 92,
+            "outletNodeId": 46
+        },
+        {
+            "id": 37,
+            "inletNodeId": 25,
+            "type": "CONNECTOR",
+            "name": 93,
+            "outletNodeId": 46
+        },
+        {
+            "id": 38,
+            "inletNodeId": 26,
+            "type": "CONNECTOR",
+            "name": 95,
+            "outletNodeId": 46
+        },
+        {
+            "id": 39,
+            "inletNodeId": 27,
+            "type": "CONNECTOR",
+            "name": 96,
+            "outletNodeId": 46
+        },
+        {
+            "id": 40,
+            "inletNodeId": 28,
+            "type": "CONNECTOR",
+            "name": 97,
+            "outletNodeId": 46
+        },
+        {
+            "id": 41,
+            "inletNodeId": 29,
+            "type": "CONNECTOR",
+            "name": 100,
+            "outletNodeId": 46
+        },
+        {
+            "id": 42,
+            "inletNodeId": 30,
+            "type": "CONNECTOR",
+            "name": 101,
+            "outletNodeId": 47
+        },
+        {
+            "id": 43,
+            "inletNodeId": 31,
+            "type": "CONNECTOR",
+            "name": 102,
+            "outletNodeId": 47
+        },
+        {
+            "id": 44,
+            "inletNodeId": 32,
+            "type": "CONNECTOR",
+            "name": 103,
+            "outletNodeId": 47
+        },
+        {
+            "id": 45,
+            "inletNodeId": 33,
+            "type": "CONNECTOR",
+            "name": 104,
+            "outletNodeId": 47
+        },
+        {
+            "id": 46,
+            "inletNodeId": 34,
+            "type": "CONNECTOR",
+            "name": 105,
+            "outletNodeId": 47
+        },
+        {
+            "id": 47,
+            "inletNodeId": 35,
+            "type": "CONNECTOR",
+            "name": 106,
+            "outletNodeId": 47
+        },
+        {
+            "id": 48,
+            "inletNodeId": 36,
+            "type": "CONNECTOR",
+            "name": 121,
+            "outletNodeId": 44
+        },
+        {
+            "id": 49,
+            "type": "WELL",
+            "inletNodeId": 50,
+            "outletNodeId": 0,
+            "name": "1019",
+            "VFPModelNumber": "1019"
+        },
+        {
+            "id": 50,
+            "type": "WELL",
+            "inletNodeId": 51,
+            "outletNodeId": 1,
+            "name": "1022",
+            "VFPModelNumber": "1022"
+        },
+        {
+            "id": 51,
+            "type": "WELL",
+            "inletNodeId": 52,
+            "outletNodeId": 2,
+            "name": "1025",
+            "VFPModelNumber": "1025"
+        },
+        {
+            "id": 52,
+            "type": "WELL",
+            "inletNodeId": 53,
+            "outletNodeId": 3,
+            "name": "1026",
+            "VFPModelNumber": "1026"
+        },
+        {
+            "id": 53,
+            "type": "WELL",
+            "inletNodeId": 54,
+            "outletNodeId": 4,
+            "name": "1031",
+            "VFPModelNumber": "1031"
+        },
+        {
+            "id": 54,
+            "type": "WELL",
+            "inletNodeId": 55,
+            "outletNodeId": 5,
+            "name": "1033",
+            "VFPModelNumber": "1033"
+        },
+        {
+            "id": 55,
+            "type": "WELL",
+            "inletNodeId": 56,
+            "outletNodeId": 6,
+            "name": "1034",
+            "VFPModelNumber": "1034"
+        },
+        {
+            "id": 56,
+            "type": "WELL",
+            "inletNodeId": 57,
+            "outletNodeId": 7,
+            "name": "1041",
+            "VFPModelNumber": "1041"
+        },
+        {
+            "id": 57,
+            "type": "WELL",
+            "inletNodeId": 58,
+            "outletNodeId": 8,
+            "name": "1046",
+            "VFPModelNumber": "1046"
+        },
+        {
+            "id": 58,
+            "type": "WELL",
+            "inletNodeId": 59,
+            "outletNodeId": 9,
+            "name": "1047",
+            "VFPModelNumber": "1047"
+        },
+        {
+            "id": 59,
+            "type": "WELL",
+            "inletNodeId": 60,
+            "outletNodeId": 10,
+            "name": "1053",
+            "VFPModelNumber": "1053"
+        },
+        {
+            "id": 60,
+            "type": "WELL",
+            "inletNodeId": 61,
+            "outletNodeId": 11,
+            "name": "1056",
+            "VFPModelNumber": "1056"
+        },
+        {
+            "id": 61,
+            "type": "WELL",
+            "inletNodeId": 62,
+            "outletNodeId": 12,
+            "name": "1058",
+            "VFPModelNumber": "1058"
+        },
+        {
+            "id": 62,
+            "type": "WELL",
+            "inletNodeId": 63,
+            "outletNodeId": 13,
+            "name": "1059",
+            "VFPModelNumber": "1059"
+        },
+        {
+            "id": 63,
+            "type": "WELL",
+            "inletNodeId": 64,
+            "outletNodeId": 14,
+            "name": "1064",
+            "VFPModelNumber": "1064"
+        },
+        {
+            "id": 64,
+            "type": "WELL",
+            "inletNodeId": 65,
+            "outletNodeId": 15,
+            "name": "1065",
+            "VFPModelNumber": "1065"
+        },
+        {
+            "id": 65,
+            "type": "WELL",
+            "inletNodeId": 66,
+            "outletNodeId": 16,
+            "name": "1067",
+            "VFPModelNumber": "1067"
+        },
+        {
+            "id": 66,
+            "type": "WELL",
+            "inletNodeId": 67,
+            "outletNodeId": 17,
+            "name": "1068",
+            "VFPModelNumber": "1068"
+        },
+        {
+            "id": 67,
+            "type": "WELL",
+            "inletNodeId": 68,
+            "outletNodeId": 18,
+            "name": "1069",
+            "VFPModelNumber": "1069"
+        },
+        {
+            "id": 68,
+            "type": "WELL",
+            "inletNodeId": 69,
+            "outletNodeId": 19,
+            "name": "1071",
+            "VFPModelNumber": "1071"
+        },
+        {
+            "id": 69,
+            "type": "WELL",
+            "inletNodeId": 70,
+            "outletNodeId": 20,
+            "name": "1072",
+            "VFPModelNumber": "1072"
+        },
+        {
+            "id": 70,
+            "type": "WELL",
+            "inletNodeId": 71,
+            "outletNodeId": 21,
+            "name": "1074",
+            "VFPModelNumber": "1074"
+        },
+        {
+            "id": 71,
+            "type": "WELL",
+            "inletNodeId": 72,
+            "outletNodeId": 22,
+            "name": "1077",
+            "VFPModelNumber": "1077"
+        },
+        {
+            "id": 72,
+            "type": "WELL",
+            "inletNodeId": 73,
+            "outletNodeId": 23,
+            "name": "1079",
+            "VFPModelNumber": "1079"
+        },
+        {
+            "id": 73,
+            "type": "WELL",
+            "inletNodeId": 74,
+            "outletNodeId": 24,
+            "name": "1080",
+            "VFPModelNumber": "1080"
+        },
+        {
+            "id": 74,
+            "type": "WELL",
+            "inletNodeId": 75,
+            "outletNodeId": 25,
+            "name": "1081",
+            "VFPModelNumber": "1081"
+        },
+        {
+            "id": 75,
+            "type": "WELL",
+            "inletNodeId": 76,
+            "outletNodeId": 26,
+            "name": "1083",
+            "VFPModelNumber": "1083"
+        },
+        {
+            "id": 76,
+            "type": "WELL",
+            "inletNodeId": 77,
+            "outletNodeId": 27,
+            "name": "1084",
+            "VFPModelNumber": "1084"
+        },
+        {
+            "id": 77,
+            "type": "WELL",
+            "inletNodeId": 78,
+            "outletNodeId": 28,
+            "name": "1085",
+            "VFPModelNumber": "1085"
+        },
+        {
+            "id": 78,
+            "type": "WELL",
+            "inletNodeId": 79,
+            "outletNodeId": 29,
+            "name": "1088",
+            "VFPModelNumber": "1088"
+        },
+        {
+            "id": 79,
+            "type": "WELL",
+            "inletNodeId": 80,
+            "outletNodeId": 30,
+            "name": "1089",
+            "VFPModelNumber": "1089"
+        },
+        {
+            "id": 80,
+            "type": "WELL",
+            "inletNodeId": 81,
+            "outletNodeId": 31,
+            "name": "1090",
+            "VFPModelNumber": "1090"
+        },
+        {
+            "id": 81,
+            "type": "WELL",
+            "inletNodeId": 82,
+            "outletNodeId": 32,
+            "name": "1091",
+            "VFPModelNumber": "1091"
+        },
+        {
+            "id": 82,
+            "type": "WELL",
+            "inletNodeId": 83,
+            "outletNodeId": 33,
+            "name": "1092",
+            "VFPModelNumber": "1092"
+        },
+        {
+            "id": 83,
+            "type": "WELL",
+            "inletNodeId": 84,
+            "outletNodeId": 34,
+            "name": "1093",
+            "VFPModelNumber": "1093"
+        },
+        {
+            "id": 84,
+            "type": "WELL",
+            "inletNodeId": 85,
+            "outletNodeId": 35,
+            "name": "1094",
+            "VFPModelNumber": "1094"
+        },
+        {
+            "id": 85,
+            "type": "WELL",
+            "inletNodeId": 86,
+            "outletNodeId": 36,
+            "name": "1028",
+            "VFPModelNumber": "1028"
+        },
+        {
+            "id": 86,
+            "type": "WELL",
+            "inletNodeId": 87,
+            "outletNodeId": 97,
+            "name": "1004",
+            "VFPModelNumber": "1004"
+        },
+        {
+            "id": 87,
+            "type": "WELL",
+            "inletNodeId": 88,
+            "outletNodeId": 98,
+            "name": "1010",
+            "VFPModelNumber": "1010"
+        },
+        {
+            "id": 88,
+            "type": "WELL",
+            "inletNodeId": 89,
+            "outletNodeId": 99,
+            "name": "1027",
+            "VFPModelNumber": "1027"
+        },
+        {
+            "id": 89,
+            "type": "WELL",
+            "inletNodeId": 90,
+            "outletNodeId": 100,
+            "name": "1036",
+            "VFPModelNumber": "1036"
+        },
+        {
+            "id": 90,
+            "type": "WELL",
+            "inletNodeId": 91,
+            "outletNodeId": 101,
+            "name": "1037",
+            "VFPModelNumber": "1037"
+        },
+        {
+            "id": 91,
+            "type": "WELL",
+            "inletNodeId": 92,
+            "outletNodeId": 102,
+            "name": "1038",
+            "VFPModelNumber": "1038"
+        },
+        {
+            "id": 92,
+            "type": "WELL",
+            "inletNodeId": 93,
+            "outletNodeId": 103,
+            "name": "1042",
+            "VFPModelNumber": "1042"
+        },
+        {
+            "id": 93,
+            "type": "WELL",
+            "inletNodeId": 94,
+            "outletNodeId": 104,
+            "name": "1044",
+            "VFPModelNumber": "1044"
+        },
+        {
+            "id": 94,
+            "type": "WELL",
+            "inletNodeId": 95,
+            "outletNodeId": 105,
+            "name": "1050",
+            "VFPModelNumber": "1050"
+        },
+        {
+            "id": 95,
+            "type": "WELL",
+            "inletNodeId": 96,
+            "outletNodeId": 106,
+            "name": "1061",
+            "VFPModelNumber": "1061"
+        },
+        {
+            "id": 96,
+            "inletNodeId": 97,
+            "type": "CONNECTOR",
+            "name": 122,
+            "outletNodeId": 48
+        },
+        {
+            "id": 97,
+            "inletNodeId": 98,
+            "type": "CONNECTOR",
+            "name": 123,
+            "outletNodeId": 48
+        },
+        {
+            "id": 98,
+            "inletNodeId": 99,
+            "type": "CONNECTOR",
+            "name": 124,
+            "outletNodeId": 48
+        },
+        {
+            "id": 99,
+            "inletNodeId": 100,
+            "type": "CONNECTOR",
+            "name": 125,
+            "outletNodeId": 48
+        },
+        {
+            "id": 100,
+            "inletNodeId": 101,
+            "type": "CONNECTOR",
+            "name": 126,
+            "outletNodeId": 48
+        },
+        {
+            "id": 101,
+            "inletNodeId": 102,
+            "type": "CONNECTOR",
+            "name": 127,
+            "outletNodeId": 48
+        },
+        {
+            "id": 102,
+            "inletNodeId": 103,
+            "type": "CONNECTOR",
+            "name": 128,
+            "outletNodeId": 48
+        },
+        {
+            "id": 103,
+            "inletNodeId": 104,
+            "type": "CONNECTOR",
+            "name": 129,
+            "outletNodeId": 48
+        },
+        {
+            "id": 104,
+            "inletNodeId": 105,
+            "type": "CONNECTOR",
+            "name": 130,
+            "outletNodeId": 48
+        },
+        {
+            "id": 105,
+            "inletNodeId": 106,
+            "type": "CONNECTOR",
+            "name": 131,
+            "outletNodeId": 48
+        },
+        {
+            "id": 106,
+            "inletNodeId": 107,
+            "type": "CONNECTOR",
+            "name": 132,
+            "outletNodeId": 48
+        },
+        {
+            "id": 107,
+            "inletNodeId": 108,
+            "type": "CONNECTOR",
+            "name": 133,
+            "outletNodeId": 48
+        },
+        {
+            "id": 108,
+            "inletNodeId": 109,
+            "type": "CONNECTOR",
+            "name": 134,
+            "outletNodeId": 48
+        },
+        {
+            "id": 109,
+            "type": "WELL",
+            "inletNodeId": 110,
+            "outletNodeId": 107,
+            "name": "1043",
+            "VFPModelNumber": "1043"
+        },
+        {
+            "id": 110,
+            "type": "WELL",
+            "inletNodeId": 111,
+            "outletNodeId": 108,
+            "name": "1052",
+            "VFPModelNumber": "1052"
+        },
+        {
+            "id": 111,
+            "type": "WELL",
+            "inletNodeId": 112,
+            "outletNodeId": 109,
+            "name": "1062",
+            "VFPModelNumber": "1062"
+        },
+        {
+            "id": 112,
+            "inletNodeId": 113,
+            "type": "CONNECTOR",
+            "name": 135,
+            "outletNodeId": 45
+        },
+        {
+            "id": 113,
+            "type": "WELL",
+            "inletNodeId": 114,
+            "outletNodeId": 113,
+            "name": "1057",
+            "VFPModelNumber": "1057"
+        }
+    ]
+}
